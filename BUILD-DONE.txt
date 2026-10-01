@@ -1,0 +1,11 @@
+BUILD DONE: Agent Recovery Benchmark
+
+Test count: 50 passed (python -m pytest -q; measured local run in evidence/test-results.txt).
+Local verified implementation commit: 24e00242431c70b36ee49e091b704d9dffb1a21a
+Branch: main
+Demo measured wall-clock time: 0.824422 seconds, below the 5-second acceptance limit.
+Data: 200 labelled synthetic trials; all metrics match independent hand-computed expectations, 120 recovered, 80 unrecovered, zero false positives and zero false negatives. Synthetic trial durations are illustrative; only CLI wall-clock performance was measured here.
+
+Built a dependency-free Python CLI, arb2, with fixtures, run, report, validate and failures commands. Pure core validation and aggregation compute recovery counts, independent-label agreement, failure groups and optional paired baseline differences from explicit local JSON/JSONL inputs. Deterministic Markdown and JSON reports carry provenance and retain trial traceability. Named errors, atomic output, adversarial tests, a hand-written five-record example, a 200-record fixture generator, recorded demo evidence, full input and command documentation, lessons and the two-week improvement hook are included. No model calls, network calls, GPU workloads or publishing were performed. Real-use accuracy, adoption and the final verdict remain pending the two-week evidence window.
+
+This receipt is committed after the verified implementation commit so its hash refers to a concrete tested tree. The receipt-only commit is available through git log; a file cannot contain its own commit hash.
