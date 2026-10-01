@@ -1,0 +1,27 @@
+{
+  "acceptance_limit_seconds": 5,
+  "all_metrics_match_independent_expectations": true,
+  "commands": [
+    "arb2 fixtures --out demo",
+    "arb2 run --input demo",
+    "arb2 report --format md"
+  ],
+  "comment": "SYNTHETIC input data. CLI wall-clock duration measured locally; fixture trial durations illustrative.",
+  "measured_wall_clock_seconds": 0.824422,
+  "metrics": {
+    "attempts": 300,
+    "elapsed_ms": 30000,
+    "false_negatives": 0,
+    "false_positives": 0,
+    "labelled_records": 200,
+    "records": 200,
+    "recovered": 120,
+    "true_negatives": 80,
+    "true_positives": 120,
+    "unrecovered": 80
+  },
+  "platform": "win32",
+  "python_version": "3.12.10",
+  "scope": "One local run including three process startups. No live recovery execution or real-use measurement.",
+  "synthetic": true
+}

@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written starter: durations illustrative, not measured
+{"id":"one","synthetic":true,"source":"synthetic_fixture","trial_date":"2026-09-30","failure":"timeout","attempts":1,"recovered":true,"elapsed_ms":10,"expected_recovered":true}
+{"id":"two","synthetic":true,"source":"synthetic_fixture","trial_date":"2026-09-30","failure":"tool_error","attempts":2,"recovered":true,"elapsed_ms":20,"expected_recovered":true}
+{"id":"three","synthetic":true,"source":"synthetic_fixture","trial_date":"2026-09-30","failure":"invalid_output","attempts":2,"recovered":false,"elapsed_ms":30,"expected_recovered":false}
+{"id":"four","synthetic":true,"source":"synthetic_fixture","trial_date":"2026-09-30","failure":"permission_denied","attempts":0,"recovered":false,"elapsed_ms":0,"expected_recovered":false}
+{"id":"five","synthetic":true,"source":"synthetic_fixture","trial_date":"2026-09-30","failure":"timeout","attempts":1,"recovered":true,"elapsed_ms":10,"expected_recovered":true}
